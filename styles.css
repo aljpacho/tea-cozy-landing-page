@@ -1,184 +1,182 @@
 /* Global styles */
 body {
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
-    margin: 0;
-    padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
-    text-align: center;
-    background-color: black;
+  text-align: center;
+  background-color: black;
 }
 
 .wrapper h2 {
-    margin: 10px 0 10px;
+  margin: 10px 0 10px;
 }
 
 .wrapper h4 {
-    margin: 15px 0 10px;
+  margin: 15px 0 10px;
 }
 
 /* Header styles */
 
 header {
-    display: flex;
-    height: 69px;
-    align-items: center;
-    border: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  align-items: center;
+  border: 1px solid seashell;
 }
 
 .logo {
-    flex: 1;
-    padding: 0 10px;
-    max-height: 50px;
+  flex: 1;
+  padding: 0 10px;
+  max-height: 50px;
 }
-
 
 nav ul {
-    display: inline-flex;
-    padding: 0 1em;
-    margin: 0;
-    gap: 20px;
-    list-style: none;
+  display: inline-flex;
+  padding: 0 1em;
+  margin: 0;
+  gap: 20px;
+  list-style: none;
 }
 
-nav a:visited{
-    color: seashell
+nav a:visited {
+  color: seashell;
 }
-
 
 /* Main styles */
 
 /* hero container */
 
 .hero {
-   height: 700px;
-   border: 1px solid yellow;
-   display: flex; 
-   position: relative;
-   align-content: center; 
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  margin: 0 50px;
+  background-size: cover;
+  background-image: url("./images/img-mission-background.jpeg");
 }
 
 .hero .wrapper {
-    display: flex; 
-    flex-direction: column;
-    max-width: 1200px;
-    top: 50%;
-    left: 0;
-    position: absolute;
-}
+  display: flex;
 
-.hero .background-img {
-    height: 700px;
-    width: 1200px;
+  flex-direction: column;
+  width: 1200px;
 }
 
 /* cards container */
 
 .cards {
-    border: 1px solid green;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin: 0 50px;
 }
 
 .cards .wrapper {
-    padding: 50px 0 10px;
+  padding: 50px 0 10px;
 }
 
 .row-top {
-    display: inline-flex;
-    justify-content: center;
-    padding: 10px;
-    gap: 50px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 50px;
 }
 
 .row-bottom {
-    display: inline-flex;
-    justify-content: center;
-    padding: 1em;
-    gap: 50px
+  display: inline-flex;
+  justify-content: center;
+  padding: 1em;
+  gap: 50px;
 }
 
 .cards .card {
-    border: 1px solid yellow;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 300px;
 }
 
 .card-img {
-    height: 200px;
-    width: 300px;
+  height: 200px;
+  width: 300px;
 }
 
 .card-text {
-    margin: 0;
-    padding-top: 10px;
-    text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
 }
 
 /* locations container */
 
 .locations {
-    height: 500px;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    background-color: white;
-    background-image: url('./images/img-locations-background.jpeg');
-    background-size: cover;
-    background-position-y: 45%;
+  height: 500px;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+  background-image: url("./images/img-locations-background.jpeg");
+  background-size: cover;
+  background-position-y: 45%;
 }
 
 .location-header {
-    margin: 30px auto 15px;
+  margin: 30px auto 15px;
 }
 
 .location-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .locations .card {
-    border: 1px solid greenyellow;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 300px;
-    width: 300px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    background-color: black;
-    padding: 20px;
-    margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: black;
+  padding: 20px;
+  margin: 0 20px;
 }
 
 .location-cards h4 {
-    flex: 1;
-    margin: 0;
+  flex: 1;
+  margin: 0;
 }
 
 .location-cards h3 {
-    flex: 1;
-    margin: 0;
+  flex: 1;
+  margin: 0;
 }
-
 
 /* Footer styles */
 
 footer {
-    height: 250px;
-    border: 1px solid blue;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .wrapper {
+  height: 200px;
+}
+
+.copyright {
+  padding-left: 20px;
+  text-align: left;
 }
