@@ -85,6 +85,7 @@ nav a:visited{
     border: 1px solid green;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .cards .wrapper {
@@ -105,7 +106,7 @@ nav a:visited{
     gap: 50px
 }
 
-.card {
+.cards .card {
     border: 1px solid yellow;
     display: flex;
     justify-content: center;
@@ -129,7 +130,51 @@ nav a:visited{
 .locations {
     height: 500px;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    background-image: url('./images/img-locations-background.jpeg');
+    background-size: cover;
+    background-position-y: 45%;
 }
+
+.location-header {
+    margin: 30px auto 15px;
+}
+
+.location-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.locations .card {
+    border: 1px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: black;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.location-cards h4 {
+    flex: 1;
+    margin: 0;
+}
+
+.location-cards h3 {
+    flex: 1;
+    margin: 0;
+}
+
 
 /* Footer styles */
 
