@@ -5,10 +5,44 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header styles */
 
+header {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    border: 1px solid seashell;
+}
+
+.logo {
+    flex: 1;
+    padding: 0 1em;
+}
+
+nav ul {
+    display: inline-flex;
+    padding: 0 1em;
+    margin: 0;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a:visited{
+    color: seashell
+}
+
+
 /* Main styles */
 
+/* .hero */
+
+/* .cards */
+
+/* .location */
+
 /* Footer styles */
+
